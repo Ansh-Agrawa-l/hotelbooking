@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #f5f6fa;
+}
+
+.dark {
+  background-color: #1a1c23;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.datagrid {
+  height: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .MuiDataGrid-cell {
+    border-bottom: 1px solid #eee;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #eee;
+  }
+}
+
+.dark {
+  .datagrid {
+    background-color: #222b45;
+    color: #fff;
+
+    .MuiDataGrid-cell {
+      border-bottom: 1px solid #2c3e50;
+    }
+
+    .MuiDataGrid-columnHeaders {
+      background-color: #1a1c23;
+      border-bottom: 2px solid #2c3e50;
+    }
+  }
+} 

@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f6fa;
+
+  .main {
+    flex: 6;
+    background-color: #f5f6fa;
+    padding: 20px;
+
+    .content {
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-top: 20px;
+    }
+  }
+}
+
+.dark {
+  .main {
+    background-color: #1a1c23;
+    
+    .content {
+      background-color: #222b45;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+} 

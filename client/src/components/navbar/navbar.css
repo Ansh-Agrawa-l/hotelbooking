@@ -1,0 +1,41 @@
+.navbar{
+  height: 50px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+
+.navButton{
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: var(--button-hover-color);
+}
